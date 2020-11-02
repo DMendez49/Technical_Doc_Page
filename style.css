@@ -1,0 +1,112 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+  transition: 0.3s !important;
+  width: 1177px !important;
+  box-shadow: 0 9px rgb(0, 0, 0);
+  background-color: rgba(179, 212, 212, 0.329);
+}
+
+.card-position{
+  margin-left: 260px;
+}
+
+.roboto{
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+}
+
+.margin-left{
+  margin-left: 40px;
+}
+
+.margin-left2{
+  margin-left: 100px;
+}
+
+.margin-right{
+  margin-right: 200px;
+}
+
+.margin-right2{
+  margin-right: 100px;
+}
+
+.code{
+  font-size: 18px;
+}
+
+.cssCode{
+  margin-left: 50px;
+}
+
+.cssCode-long{
+  margin-left: 165px;
+}
+
+.code-background{
+  background-color: rgb(255, 255, 255);
+}
+
+select{
+  width: 185px;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(400px, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 1px;
+  grid-template-areas:
+  "advert"
+  "content";
+}
+
+.advert{
+  grid-area: advert;
+}
+
+.content{
+  grid-area: content !important;
+}
+
+#navbar{
+  overflow: hidden;
+  width: 18.6vw;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(179, 212, 212, 0.349);
+}
+
+.background{
+  background-color: rgba(188, 207, 207, 0.445);
+}
+
+.nav{
+  display: grid;
+  text-decoration: none !important;
+  letter-spacing: 5px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  height: 130px;
+}
+
+.dev{
+  font-weight: bold;
+  letter-spacing: 5px;
+  height: 140px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+@media (max-width ){
+  
+}
